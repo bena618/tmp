@@ -1,0 +1,14 @@
+| Functionality               | pycapellambse                                                              | python4Capella                                        |
+|-----------------------------|----------------------------------------------------------------------------|-------------------------------------------------------|
+| Load a model                | `model = capellambse.MelodyModel(filepath)`                                | `model = python4Capella.load_model(filepath)`         |
+| Get elements by ID          | `element = model.get_element_by_id(element_id)`                            | `element = model.get_element_by_id(element_id)`       |
+| Get elements by name        | `element = model.get_element_by_name(name)`                                | `element = model.get_element_by_name(name)`           |
+| Create new element          | `new_element = model.create_element('type', attributes)`                   | `new_element = model.create('type', attributes)`      |
+| Delete element              | `model.delete_element(element_id)`                                         | `model.delete(element_id)`                            |
+| Update element attributes   | `element.update_attributes(attributes)`                                    | `element.update(attributes)`                          |
+| Add relation between elements| `model.add_relation(source_id, target_id, relation_type)`                  | `model.add_relation(source_id, target_id, relation_type)` |
+| Remove relation between elements | `model.remove_relation(source_id, target_id, relation_type)`          | `model.remove_relation(source_id, target_id, relation_type)` |
+| Validate model              | `model.validate()`                                                         | `python4Capella.validate_model(model)`                |
+| Get diagrams                | `diagrams = model.get_diagrams()`                                          | `diagrams = model.get_diagrams()`                     |
+| Enumerate diagrams          | `for diagram in model.enumerate_diagrams():`                               | `for diagram in model.enumerate_diagrams():`          |
+| Save model                  | `model.save(filepath)`                                                     | `python4Capella.save_model(model, filepath)`          |
