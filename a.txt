@@ -1,0 +1,23 @@
+Troubleshooting PyDev Installation
+While setting up an environment to work on python4capella, I encountered difficulties installing PyDev. Below is a summary of the steps I took and the resources I consulted in an attempt to resolve the issue.
+
+Steps Taken and Resources Consulted
+PyDev Official Resources:
+
+PyDev Manual Installation Guide
+PyDev Update Sites
+PyDev on Eclipse Marketplace
+Tutorials and Videos:
+
+YouTube Installation Guide
+Online Forums and Q&A Sites:
+
+Stack Overflow: Unable to Load Repository
+Ask Ubuntu: Installation Problems
+Stack Overflow: Configuring Eclipse for PyDev
+Encountered Issues
+Despite following the guides and troubleshooting steps, I continued to face errors such as "unable to load repository." I attempted several fixes found on various forums but had limited success.
+
+Potential Solution
+I discovered a possible solution on Stack Overflow, which suggests downloading PyDev from SourceForge. However, access to SourceForge is currently blocked by Telesat, so I am exploring ways to either gain access or find an alternative installation method.
+
